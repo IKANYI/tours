@@ -1,0 +1,67 @@
+.cards{
+  background-color: burlywood;
+  padding: .5rem 0;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto auto;
+}
+@media screen and (max-width: 800px) {
+  .cards{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+@media screen and (max-width: 550px) {
+  .cards{
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+
+
+.card-components, .card-components-a , .card-components-b , .card-components-c , .card-components-d , .card-components-e {
+  background-image:linear-gradient(rgba(123,123,123,.1),rgba(123,52,233,.1)), url(../../assets/mtkenyadest.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 13rem;
+  max-width: 20rem;
+  margin: 0 1rem;
+  color: yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 2rem;
+  border-radius: 2rem;
+  margin-bottom: .5rem;
+  
+}
+.card-components a, .card-components-a a, .card-components-b a, .card-components-c a, .card-components-d a, .card-components-e a{
+  background-color: azure;
+  padding: .1rem .2rem;
+  border-radius: .1rem;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+.card-components{
+  background-image:linear-gradient(rgba(123,123,123,.1),rgba(123,52,233,.1)), url(../../assets/mtkenyadest.jpg);
+}
+.card-components-a{
+  background-image:linear-gradient(rgba(123,123,123,.1),rgba(123,52,233,.1)), url(../../assets/ruwenz-desti.jpg);
+}
+.card-components-b{
+  background-image:linear-gradient(rgba(123,123,123,.1),rgba(123,52,233,.1)), url(../../assets/swans-lake.jpg);
+}
+.card-components-c{
+  background-image:linear-gradient(rgba(123,123,123,.1),rgba(123,52,233,.1)), url(../../assets/tsavo-dest.jpg);
+}
+.card-components-d{
+  background-image:linear-gradient(rgba(123,123,123,.1),rgba(123,52,233,.1)), url(../../assets/nairobi-np.jpg);
+}
+.card-components-e{
+  background-image:linear-gradient(rgba(123,123,123,.1),rgba(123,52,233,.1)), url(../../assets/coast.jpg);
+}
+.card-components-h{
+  background-image:linear-gradient(rgba(123,123,123,.1),rgba(123,52,233,.1)), url(../../assets/mtkenyadest.jpg);
+}

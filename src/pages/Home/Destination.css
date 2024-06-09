@@ -1,0 +1,31 @@
+.main-container{
+  display: grid;
+  grid-template-columns: auto auto;
+  place-content: center;
+  gap: 1rem;
+  background-color: #1a1d2f;
+  color: azure;
+  padding: .5rem;
+}
+@media screen and (max-width: 800px) {
+  .main-container{
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+.componets{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  text-align: center;
+  gap: .5rem;
+}
+.componets img{
+  width: 100%;
+  height: 60%;
+  border-top-right-radius: 2rem;
+  border-bottom-left-radius: 2rem;
+}
+.componets p, .componets h3{
+  margin: 0;
+}

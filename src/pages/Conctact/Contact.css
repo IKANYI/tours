@@ -1,0 +1,35 @@
+.about{
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #1a1d2f;
+}
+@media screen  and (max-width: 850px){
+  .about{
+    display: grid;
+    grid-template-columns:auto ;
+  }
+  
+}
+.form, .items{
+  display: flex;
+  flex-direction: column;
+  gap: .6rem;
+  justify-content: center;
+  align-items: center;
+  color: azure;
+  text-align: center;
+}
+.items input, .items button {
+  width: 50%;
+  border-radius: 2rem;
+  background-color: #212436;
+  color: azure;
+}
+.items h2, .items p, .items h4{
+  margin: 0;
+}
+.textinput{
+  border-top: none;
+  border-left: none;
+  border-right:none ;
+}

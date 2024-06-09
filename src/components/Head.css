@@ -1,0 +1,41 @@
+.headtop{
+  display: flex;
+  justify-content: space-between;
+  background-color: #1a1d2f;
+  text-transform: capitalize;
+  max-height: 5rem;
+  color: azure;
+}
+@media screen and (max-width: 550px){
+  .headtop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: .2rem;
+    padding: .3rem;
+  }
+  .socials{
+    gap: .4rem;
+  }
+}
+.headerTitle{
+  margin: 1rem 1rem;
+}
+.socials{
+  display: flex;
+  gap: 1rem;
+  text-transform: capitalize;
+  margin: 0 1rem;
+}
+.navigation{
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  background-color: #2569a2;
+}
+.navigation a {
+ text-decoration: none;
+ text-transform: capitalize;
+ color: white;
+}
